@@ -106,7 +106,7 @@ class ObstacleAvoidance : public rclcpp::Node {
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr lidar_subscriber_;
 };
 
-int main(int argc, char *argv) {
+int main(int argc, char **argv) {
     rclcpp::init(argc, argv);
     rclcpp::spin(std::make_unique<ObstacleAvoidance>());
     rclcpp::shutdown();
