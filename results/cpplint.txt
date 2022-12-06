@@ -1,0 +1,5 @@
+src/walker_algorithm.cpp:46:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/walker_algorithm.cpp:47:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+src/walker_algorithm.cpp:106:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing src/walker_algorithm.cpp
+Total errors found: 3
